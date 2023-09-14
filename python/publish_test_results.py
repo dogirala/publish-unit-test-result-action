@@ -229,6 +229,7 @@ def publishtotcm(results) -> None:
 
     headers = {
         "Content-Type": "application/json",
+        "Authorization": "Basic dHJpcHRpamFpbkBtaWNyb3NvZnQuY29tOnVlbWJvNHpuZGFpZWloNmV4dXdjYnFnbm5jbnA0NHdwNjZoemljNzJ3Z2R4bHhxZWYyNHE=",
         # 'Cookie': 'VstsSession=%7B%22PersistentSessionId%22%3A%221cc9d29d-bd96-4495-9d14-e71170033690%22%2C%22PendingAuthenticationSessionId%22%3A%2200000000-0000-0000-0000-000000000000%22%2C%22CurrentAuthenticationSessionId%22%3A%2200000000-0000-0000-0000-000000000000%22%2C%22SignInState%22%3A%7B%7D%7D',
     }
     
@@ -258,6 +259,7 @@ def publishtotcm_2(results) -> None:
 
     headers2 = {
         "Content-Type": "application/json",
+        "Authorization": "Basic dHJpcHRpamFpbkBtaWNyb3NvZnQuY29tOnVlbWJvNHpuZGFpZWloNmV4dXdjYnFnbm5jbnA0NHdwNjZoemljNzJ3Z2R4bHhxZWYyNHE=",
         # 'Cookie': 'VstsSession=%7B%22PersistentSessionId%22%3A%22091aced1-29d4-4b83-bc99-c6e255744e9f%22%2C%22PendingAuthenticationSessionId%22%3A%2200000000-0000-0000-0000-000000000000%22%2C%22CurrentAuthenticationSessionId%22%3A%2200000000-0000-0000-0000-000000000000%22%2C%22SignInState%22%3A%7B%7D%7D',
     }
     
