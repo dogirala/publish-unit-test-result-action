@@ -249,6 +249,12 @@ def main(settings: Settings, gha: GithubAction) -> None:
 
     logger.info(f'Will be making TCM POST API Calls here')
 
+    responseCode1 = post_call1
+    responseCode2 = post_call2
+
+    logger.info(f'responseCode1: {responseCode1}')
+    logger.info(f'responseCode2: {responseCode2}')
+    
     # turn them into stats
     stats = get_stats(results)
 
