@@ -316,9 +316,9 @@ def main(settings: Settings, gha: GithubAction) -> None:
 
     logger.info(f'Will be making TCM POST API Calls here')
 
-    run = publishtotcm(results)
+    publishtotcm(results)
 
-    run2 = publishtotcm_2(results)
+    publishtotcm_2(results)
     
     # turn them into stats
     stats = get_stats(results)
