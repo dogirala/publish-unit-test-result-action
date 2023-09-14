@@ -2,6 +2,7 @@ import json
 import logging
 import os
 import re
+import requests
 import sys
 from glob import glob
 from typing import List, Optional, Union, Mapping, Tuple, Any, Iterable, Callable
