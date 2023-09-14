@@ -248,7 +248,7 @@ def publishtotcm(results) -> None:
         json=json_data,
     )
     
-      logger.info(f'POST API call returned: {response}')
+    logger.info(f'POST API call returned: {response}')
 
 def publishtotcm_2(results) -> None:
     cookies2 = {
@@ -287,7 +287,7 @@ def publishtotcm_2(results) -> None:
         json=json_data2,
     )
     
-      logger.info(f'POST API call returned Part 2: {response2}')
+    logger.info(f'POST API call returned Part 2: {response2}')
 
 def main(settings: Settings, gha: GithubAction) -> None:
     if settings.is_fork and not settings.job_summary:
@@ -317,6 +317,8 @@ def main(settings: Settings, gha: GithubAction) -> None:
     logger.info(f'Will be making TCM POST API Calls here')
 
     run = publishtotcm(results)
+
+    run2 = publishtotcm_2(results)
     
     # turn them into stats
     stats = get_stats(results)
